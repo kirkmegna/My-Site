@@ -6,6 +6,17 @@ a {
 	text-decoration:none;
 }
 
+#site_link{
+	font-weight:normal;
+}
+
+#site_link:link{
+	color:white;	
+}
+#site_link:hover{
+	color:green;	
+}
+
 hr{
 	width:500px;	
 }

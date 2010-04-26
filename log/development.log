@@ -5196,3 +5196,107 @@ Processing PagesController#contact (for 127.0.0.1 at 2010-04-26 04:45:25) [GET]
 Rendering template within layouts/layout
 Rendering pages/contact
 Completed in 31ms (View: 9, DB: 0) | 200 OK [http://localhost/contact]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-26 06:22:35) [GET]
+
+NameError (uninitialized constant HomeController):
+  
+
+Rendered rescues/_trace (70.9ms)
+Rendered rescues/_request_and_response (2.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-26 06:24:37) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: aboutme, contact, home, photos, portfolio, and resume):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-04-26 06:25:11) [GET]
+Rendering template within layouts/layout
+Rendering pages/home
+Completed in 91ms (View: 83, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-26 06:28:52) [GET]
+
+ActionController::RoutingError (No route matches "/login" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-04-26 06:28:55) [GET]
+Rendering template within layouts/layout
+Rendering pages/home
+Completed in 157ms (View: 140, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#portfolio (for 127.0.0.1 at 2010-04-26 06:29:01) [GET]
+Rendering template within layouts/layout
+Rendering pages/portfolio
+Completed in 23ms (View: 15, DB: 0) | 200 OK [http://localhost/portfolio]
+
+
+Processing PagesController#portfolio (for 127.0.0.1 at 2010-04-26 06:29:21) [GET]
+Rendering template within layouts/layout
+Rendering pages/portfolio
+Completed in 39ms (View: 7, DB: 0) | 200 OK [http://localhost/portfolio]
+
+
+Processing PagesController#portfolio (for 127.0.0.1 at 2010-04-26 06:31:50) [GET]
+Rendering template within layouts/layout
+Rendering pages/portfolio
+Completed in 64ms (View: 51, DB: 0) | 200 OK [http://localhost/portfolio]
+
+
+Processing PagesController#portfolio (for 127.0.0.1 at 2010-04-26 06:32:58) [GET]
+Rendering template within layouts/layout
+Rendering pages/portfolio
+Completed in 23ms (View: 16, DB: 0) | 200 OK [http://localhost/portfolio]
+
+
+Processing PagesController#aboutme (for 127.0.0.1 at 2010-04-26 06:33:09) [GET]
+Rendering template within layouts/layout
+Rendering pages/aboutme
+Completed in 51ms (View: 19, DB: 0) | 200 OK [http://localhost/aboutme]
+
+
+Processing PagesController#resume (for 127.0.0.1 at 2010-04-26 06:33:11) [GET]
+Rendering template within layouts/layout
+Rendering pages/resume
+Completed in 78ms (View: 59, DB: 0) | 200 OK [http://localhost/resume]
+
+
+Processing PagesController#portfolio (for 127.0.0.1 at 2010-04-26 06:33:13) [GET]
+Rendering template within layouts/layout
+Rendering pages/portfolio
+Completed in 39ms (View: 31, DB: 0) | 200 OK [http://localhost/portfolio]
+
+
+Processing PagesController#portfolio (for 127.0.0.1 at 2010-04-26 06:33:36) [GET]
+Rendering template within layouts/layout
+Rendering pages/portfolio
+Completed in 46ms (View: 14, DB: 0) | 200 OK [http://localhost/portfolio]
+
+
+Processing PagesController#portfolio (for 127.0.0.1 at 2010-04-26 06:34:03) [GET]
+Rendering template within layouts/layout
+Rendering pages/portfolio
+Completed in 42ms (View: 12, DB: 0) | 200 OK [http://localhost/portfolio]
+
+
+Processing PagesController#portfolio (for 127.0.0.1 at 2010-04-26 06:35:06) [GET]
+Rendering template within layouts/layout
+Rendering pages/portfolio
+Completed in 28ms (View: 5, DB: 0) | 200 OK [http://localhost/portfolio]
+
+
+Processing PagesController#portfolio (for 127.0.0.1 at 2010-04-26 06:35:59) [GET]
+Rendering template within layouts/layout
+Rendering pages/portfolio
+Completed in 42ms (View: 35, DB: 0) | 200 OK [http://localhost/portfolio]
