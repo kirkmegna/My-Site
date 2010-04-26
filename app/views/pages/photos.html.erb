@@ -1,0 +1,89 @@
+<% content_for :title do %>
+Photo Gallery
+<% end %>
+
+<% content_for :javascript do %>
+<%= javascript_include_tag "mbGallery.js"%>
+<% end %>
+
+<% content_for :onclick do %>
+<script type="text/javascript">	
+$(document).ready(function(){
+	$(".imgDesc").hide();
+	$(".btn1").click(function(){$('#g1').mbGallery({maskBgnd: '#ccc', overlayOpacity: .9, startFrom: 0 });});
+	$(".btn2").click(function(){$('#g1').mbGallery({maskBgnd: '#ccc', overlayOpacity: .9, startFrom: 1 });});
+	$(".btn3").click(function(){$('#g1').mbGallery({maskBgnd: '#ccc', overlayOpacity: .9, startFrom: 2 });});
+	$(".btn4").click(function(){$('#g1').mbGallery({maskBgnd: '#ccc', overlayOpacity: .9, startFrom: 3 });});
+	$(".btn5").click(function(){$('#g1').mbGallery({maskBgnd: '#ccc', overlayOpacity: .9, startFrom: 4 });});
+	$(".btn6").click(function(){$('#g1').mbGallery({maskBgnd: '#ccc', overlayOpacity: .9, startFrom: 5 });});
+	$(".btn7").click(function(){$('#g1').mbGallery({maskBgnd: '#ccc', overlayOpacity: .9, startFrom: 6 });});
+	$(".btn8").click(function(){$('#g1').mbGallery({maskBgnd: '#ccc', overlayOpacity: .9, startFrom: 7 });});
+	$(".btn9").click(function(){$('#g1').mbGallery({maskBgnd: '#ccc', overlayOpacity: .9, startFrom: 8 });});
+	$(".btn10").click(function(){$('#g1').mbGallery({maskBgnd: '#ccc', overlayOpacity: .9, startFrom: 9 });});
+	$(".btn11").click(function(){$('#g1').mbGallery({maskBgnd: '#ccc', overlayOpacity: .9, startFrom: 10 });});
+});
+</script>
+<%end%>
+
+<h1>Photos</h1>
+
+<div class="thumbnails">
+<p>Click an image below to start viewing the gallery!</p> 
+<img src="/images/gallery1/LR/01.jpg" class="btn1"/>
+<img src="/images/gallery1/LR/02.jpg" class="btn2"/>
+<img src="/images/gallery1/LR/03.jpg" class="btn3"/>
+<img src="/images/gallery1/LR/04.jpg" class="btn4"/>
+<img src="/images/gallery1/LR/05.jpg" class="btn5"/>
+<img src="/images/gallery1/LR/06.jpg" class="btn6"/>
+<img src="/images/gallery1/LR/07.jpg" class="btn7"/>
+<img src="/images/gallery1/LR/08.jpg" class="btn8"/>
+<img src="/images/gallery1/LR/09.jpg" class="btn9"/>
+<img src="/images/gallery1/LR/10.jpg" class="btn10"/>
+<img src="/images/gallery1/LR/11.jpg" class="btn11"/>
+</div>
+
+<div  id="g1" class="galleryCont">
+  <a class="imgThumb" href="/images/gallery1/LR/01.jpg"></a>
+  <a class="imgFull" href="/images/gallery1/HR/01.jpg"></a>
+  <div class="imgDesc">Grand wailea golf resort, Maui, Hawaii</div>
+
+  <a class="imgThumb" href="/images/gallery1/LR/02.jpg"></a>
+  <a class="imgFull" href="/images/gallery1/HR/02.jpg"></a>
+  <div class="imgDesc">Peter Island, British Virgin Islands - Aerial view</div>
+
+  <a class="imgThumb" href="/images/gallery1/LR/03.jpg"></a>
+  <a class="imgFull" href="/images/gallery1/HR/03.jpg"></a>
+  <div class="imgDesc">Peter Island, British Virgin Islands - Crows Nest</div>
+
+  <a class="imgThumb" href="/images/gallery1/LR/04.jpg"></a>
+  <a class="imgFull" href="/images/gallery1/HR/04.jpg"></a>
+  <div class="imgDesc">Delicious shrimp!</div>
+
+  <a class="imgThumb" href="/images/gallery1/LR/05.jpg"></a>
+  <a class="imgFull" href="/images/gallery1/HR/05.jpg"></a>
+  <div class="imgDesc">Fancy desserts</div>
+
+  <a class="imgThumb" href="/images/gallery1/LR/06.jpg"></a>
+  <a class="imgFull" href="/images/gallery1/HR/06.jpg"></a>
+  <div class="imgDesc"></div>
+
+  <a class="imgThumb" href="/images/gallery1/LR/07.jpg"></a>
+  <a class="imgFull" href="/images/gallery1/HR/07.jpg"></a>
+  <div class="imgDesc"></div>
+
+  <a class="imgThumb" href="/images/gallery1/LR/08.jpg"></a>
+  <a class="imgFull" href="/images/gallery1/HR/08.jpg"></a>
+  <div class="imgDesc"></div>
+
+  <a class="imgThumb" href="/images/gallery1/LR/09.jpg"></a>
+  <a class="imgFull" href="/images/gallery1/HR/09.jpg"></a>
+  <div class="imgDesc"></div>
+
+  <a class="imgThumb" href="/images/gallery1/LR/10.jpg"></a>
+  <a class="imgFull" href="/images/gallery1/HR/10.jpg"></a>
+  <div class="imgDesc"></div>
+
+  <a class="imgThumb" href="/images/gallery1/LR/11.jpg"></a>
+  <a class="imgFull" href="/images/gallery1/HR/11.jpg"></a>
+  <div class="imgDesc"></div>
+</div>

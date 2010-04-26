@@ -1,0 +1,55 @@
+<% content_for :title do %>
+Contact Me
+<% end %>
+
+<% content_for :javascript do %>
+<%=javascript_include_tag "jquery.autoclear.js"%>
+<script type="text/javascript">
+  $(document).ready(function () {
+  $('input:text.autoclear').autoclear();
+  });
+</script>
+<% end %>
+
+<h1>Contact Kirk</h1>
+<div class="form">
+    <form action="MAILTO:kirk.megna@gmail.com?subject=Website%20Form%20Submission" method="post" enctype="text/plain">
+	
+	<div id="namefield" class="formid">        
+	Name:
+        <input type="text" name="Name: " value="Your Name" class="autoclear"/>
+        </div>
+
+	<div id="emailfield" class="formid">
+        Email:
+        <input type="text" name="Email: " value="Your Email" class="autoclear"/><br />
+	</div>
+
+	<div id="subjectfield" class="formsubject">
+        Subject:<br />
+        <select name="Subject" class="dropdown">
+            <option value="None" class="default" selected="selected">Pick an Option</option>
+            <option value="Website Support">Website Support</option>
+            <option value="Suggestions/Feedback">Suggestions/Feedback</option>
+            <option value="General">General</option>
+        </select>
+        <br /><br />
+	</div>
+
+	<div id="responsefield">
+        Do you require a response?<br />
+        <input type="radio" name="Respond: " value="yes" checked="checked" /> Yes
+        <input type="radio" name="Respond: " value="no" /> No
+        <br /><br />
+	</div>   
+     
+	<div id="commentsfield">
+        Comments:<br />
+        <textarea rows="5" cols="40" name="Comments: " ></textarea> 
+        <br/><br />
+	</div>
+
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" /> 
+    </form>
+</div>

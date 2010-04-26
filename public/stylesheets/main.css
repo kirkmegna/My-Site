@@ -1,0 +1,110 @@
+body {margin:0px; color:black; font-family: "Times New Roman", Times, serif; background:black url(../images/fantasy_16.jpg) no-repeat fixed; text-align:center; overflow:scroll;}
+
+a {
+	color:white;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+hr{
+	width:500px;	
+}
+
+h1 {
+	text-align:center
+}
+
+.default {
+        color:gray;
+}
+
+p.just {
+	text-align:justify;
+}
+
+div#page {
+	width:900px;
+	height:auto;
+	color:white;
+	background-color:#000000;
+        margin:auto;
+	padding-bottom:50px;
+	text-align:left;
+	opacity:.95;
+	
+	
+}
+
+div.menu {
+	text-align:center;
+}
+
+div.menu a.item {
+	display:inline-block;
+	font-size:15px;
+	width:120px;
+	padding:6px 0px;
+	background-color:#454545;
+	text-align:center;
+	margin:0 -2px;
+}
+
+div.menu a.item:hover {
+	background-color:gray;
+}
+
+div.form {
+	width:700px;
+	margin:auto;
+	text-align:center;
+}
+div.formid {
+	display:inline;
+	width:250px;
+	margin:25px 25px;
+}
+
+div.content {
+	width:700px;
+	margin:auto;
+}
+
+.thumbnails {
+	width:600px;
+	margin:auto;
+	text-align:center;
+}
+
+img#biopic {
+	width:200px;
+	height:267px;
+	border:10px double gray;
+	padding:4px;
+	margin-left:15px;
+	background-color:#500000;
+    float:right;
+}
+
+img#home {
+	width:200px;
+	height:219px;
+	border:8px solid white;
+	padding:4px;
+	margin-right:15px;
+	background-color:black;
+    float:left;
+}
+
+.thumbnails img{
+	border:3px solid black;
+}
+
+.thumbnails img:hover{
+	border:3px solid white;
+}
+
+.thumbnails img:active{
+	border:3px solid green;
+}
+
+

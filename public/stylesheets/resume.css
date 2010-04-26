@@ -1,0 +1,22 @@
+h3 {
+	font-style:italic;
+	margin-bottom:0px;
+	padding:0px;
+	
+}
+
+h4 {
+	font-weight:bold;
+	margin:0px;
+	padding:0px;
+}
+
+div.resume {
+	margin:auto;
+	width:700px;
+}
+	
+div#resumeHeader {
+	text-align:center;
+}
+

@@ -1,0 +1,175 @@
+<% content_for :title do %>
+Curriculum Vitae
+<% end %>
+
+    <div id="resumeHeader" class="resume">
+        <h2>Kirk A. Megna</h2>
+        <p>361 Bond Street East
+        <br />Oshawa, Ontario, L1G 1B6
+        <br />905 922-3588
+        <br />kirk.megna@gmail.com
+        </p>
+      </div>
+	  
+      <div id="skills" class="resume">
+      <h3>Skills</h3>
+      <ul>
+        <li>Exceptional ability to cope well with pressure</li>
+        <li>Effective communicator both orally and in writing</li>
+        <li>Strong organizational and leadership skills</li>
+        <li>Able to prioritize work and meet deadlines</li>
+        <li>Strongly self motivated to excel in all areas of learning and personal development</li>
+        <li>Experience with GEANT4 Toolkit, FORTRAN, C++, Ruby on Rails, JavaScript, JQuery, HTML, CSS, and LSL</li>
+      </ul>
+      </div>
+      
+      <div id="education" class="resume">
+        <hr/>
+        <h3> Education </h3>
+        
+        <h4>Honours Bachelor of Science in Radiation Science; Health Physics</h4>
+        <p>University of Ontario Institute of Technology, Oshawa, Ontario
+        <br />Graduated: April, 2007
+        <br />GPA 3.4/4.3 (equivalent to B+), Upper Years
+        <br />Substantial knowledge of subject matter; some evidence of
+        organization and analytic ability; a moderate degree of originality and
+        independence of thought; reasonable understanding of relevant issues;
+        evidence of familiarity with literature; an ability to communicate
+        clearly and fluently.
+        </p>
+      </div>
+      
+      <div id="employment" class="resume">
+        <hr/>
+        <h3>Employment</h3>
+        <h4>Teaching Assistant</h4>
+        <p>University of Ontario Institute of Technology, Oshawa, Ontario
+        <br />Sep. 2007 to Present
+        <br />I work as a Teaching Assistant for both the Environmental Effects
+        of Radiation and Radiation Protection courses, through the Faculty of
+        Energy Systems and Nuclear Science under Dr. Ed Waller. I am responsible
+        for running the laboratory component of these courses in addition to
+        marking assignments and lab reports. Through this work I have obtained
+        a sound understanding of environmental monitoring and radiation
+        protection techniques, including operational skills of LSC's, Air
+        Monitors, Gamma Spectroscopy, Alpha/Beta Probes, various health
+        physics codes such as VARSKIN and IMBA, and TLD readers.
+        </p>
+        
+        <h4>Research Assistant</h4>
+        <p>University of Ontario Institute of Technology, Oshawa, Ontario
+        <br />May 2007 to Mar. 2010
+        <br />I worked with Dr. Anthony Waker and was responsible for
+        the background research, as well as experimental design and setup for
+        developing a personal tritium monitor using a miniature photomultiplier
+        tube. Through various modeling tasks I developed a strong
+        understanding of the Monte Carlo Simulation Toolkit GEANT4, which is an
+        Object Oriented Toolkit built in C++ that utilizes nuclear libraries for
+        customizing a variety of simulation scenarios. 
+        </p>
+        
+        <h4>SecondLife Content Creator</h4>
+        <p>University of Ontario Institute of Technology, Oshawa, Ontario
+        <br />Nov 2006 to Aug. 2007
+        <br />I was hired as a contractor for UOIT to begin development on a
+        virtual campus in Second Life. Once the initial building was completed
+        the focus of the project shifted to creating an interactive learning
+        centre for hosting virtual classes. I was required to design and script
+        a wide range of applications using Linden Scripting Language (LSL) such
+        as a lecture theatre, user interaction HUD, teleportation hubs, and
+        streaming video displays.
+        </p>
+        
+        <h4>Executive Officer, Educator</h4>
+        <p>Tau Kappa Epsilon, Oshawa, Ontario
+        <br />Dec. 2005 to Apr. 2009
+        <br />I have been able to supervise and work well with others in regards
+        to meeting deadlines and serving as a role model. My duties included
+        developing and implementing a four year education program for current
+        and future fraternity members as well as delegating various tasks and
+        responsibilities. I have obtained a sound understanding of student
+        consultation and leadership through running the 35 man Chapter with a
+        team of 7 other executive officers.
+        </p>
+        
+        <h4>Research Assistant</h4>
+        <p>University of Ontario Institute of Technology, Oshawa, Ontario
+        <br />May 2006 to Sep. 2006
+        <br />I worked for Dr. Ed Waller in conjunction with the Department of
+        National Defence doing anti-terrorism research in regard to radiological
+        dispersal devices. I created several extensive reports including a
+        safety procedure for use with a Cascade Impactor. I was responsible for
+        a number of projects and received extensive first hand knowledge in
+        regards to the research and development industry through hands on
+        applications.
+        </p>
+        
+        <h4>Conversion Caller</h4>
+        <p>University of Ontario Institute of Technology, Oshawa, Ontario
+        <br />Jan. 2005 to Apr. 2006
+        <br />Played an integral role as part of an over all recruitment team
+        that saw enrolment rise by 33% and a rise in applications by 13.5 % in
+        2006. I was responsible for calling many perspective students in order
+        to answer their questions and concerns in regards to the University and
+        student life in and around Durham Region. Being able to effectively
+        communicate with thousands of students since 2005 has helped to further
+        enhance my communication skills.
+        </p>
+        
+        <h4>UOIT Student Ambassador</h4>
+        <p>University of Ontario Institute of Technology, Oshawa, Ontario
+        <br />Dec. 2004 to Apr. 2007
+        <br />I attended a variety of on-campus events in order to help promote
+        the university to perspective students. Through this I was able to take
+        on new initiatives and assist in the recruitment of new ambassadors.
+        While working as a student ambassador I was able to continue being
+        successful in my academics, which in turn, has allowed me to better
+        my time management skills.
+        </p>
+        
+        <h4>Research Assistant</h4>
+        <p>University of Ontario Institute of Technology, Oshawa, Ontario
+        <br />May 2004 to Oct. 2004
+        <br />I worked for Dr. Ed Waller in conjunction with the Department of
+        National Defence doing anti-terrorism research in regard to radiological
+        dispersal devices. I created several extensive reports including a
+        commissioning report for a Malvern Spraytec and a cart design report.
+        I was to gather a considerable amount of information in regards to the
+        research at hand and was responsible for the design and assembly of a
+        customized cart to be used in the experiments. I Gained considerable
+        experience in writing formal scientific reports and was able to learn
+        new skills quickly.
+        </p>
+      </div>
+        
+      <div id="achievements" class="resume">
+        <hr/>
+        <h3>Achievements</h3>
+        <h4>Leadership Academy Graduate, July 2007</h4>
+        <p>As of July 2007, I graduated from the Tau Kappa Epsilon Leadership
+        Academy. During the course of a week, we were subjected to a large number
+        of activities geared towards further development of ourselves as
+        effective leaders. To date, 500 members have successfully completed
+        the Leadership Academy.
+        </p>
+      
+        <h4>Dean's List, Fall 2005 - Fall 2006</h4>
+        <p>Remained in clear standing with a semester GPA above 3.5/4.3 on at
+        least 80 per cent of a full course load for 3 semesters in a row and
+        received the designation Dean's Honours List on my transcript.
+        </p>
+      
+        <h4>Fundraising, January 2005</h4>
+        <p>I raised over $1000 which was donated through S.H.A.R.E. and the
+        Red Cross to the many Tsunami Victims. Also participated in other
+        fundraising endeavours for this cause and helped raise a total of
+        over $7000.
+        </p>
+      </div>
+      
+      
+      <div id="references" class="resume">
+        <hr/>
+        <h3>References</h3>
+        <p>Available Upon Request.</p>
+      </div>

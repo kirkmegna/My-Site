@@ -1,0 +1,42 @@
+<% content_for :title do %>
+My Portfolio
+<% end %>
+<div class="content">
+	<h1>My Portfolio</h1>
+	
+	<p>
+		Please check back often as I fill this up with more projects! If you have any questions about
+		the following projects, don't hesitate to send me a message.
+	</p>
+	<hr/>
+	<ul>
+		<li>Fortran projects:
+			<ul>
+				<li>Simple program that calculates the approximate value of Pi using Monte Carlo methods.</li>
+				<li>2D slab Monte Carlo approximations of a neutron moving through D2O, both with and without energy dependance. </li>
+				<li>Random number evaluations on the LCG RNG algorithm</li>
+			</ul>
+		</li>
+		<br/>
+		<li>Geant4 project:
+			<ul>
+				<li>Modelling and simulation of a detector for gamma rays, electrons, and protons</li>
+			</ul>
+		</li>
+		<br/>
+		<li>Website design:
+			<ul>
+				<li>HTML, Java Script, JQuery, CSS</li>
+			</ul>
+		</li>
+		<br/>
+		<li>Online game - ROLLIN' in CA$H:
+			<ul>
+				<li>Utilized a wide range of skill sets to complete this project including Ruby on Rails, Git, and Heroku</li>
+			</ul>
+		</li>
+	</ul>
+	
+</div>
+
+
